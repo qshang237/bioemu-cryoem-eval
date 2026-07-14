@@ -1,0 +1,18 @@
+# Raw HPC intermediate data, regenerable via 01_dataset_curation.py / 04_fitting_*.py
+# and public EMDB/RCSB downloads. Excluded for repo size (see README).
+emdb_maps/
+pdb_structures/
+msa_results/
+alphaflow_results/
+bioemu_results/
+
+# Editor / OS / Python junk
+.DS_Store
+.vscode/
+__pycache__/
+*.pyc
+*.tmp.*
+
+# Job scheduler logs
+*.out
+*.err
